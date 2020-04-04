@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">QuestionBank</string>
+    <string-array name="subject">
+        <item>DAA</item>
+        <item>ATFL</item>
+        <item>DBMS</item>
+        <item>FMC</item>
+        <item>OS</item>
+        <item>MP</item>
+    </string-array>
+    <string-array name="level">
+        <item>Level1</item>
+        <item>Level2</item>
+        <item>Level3</item>
+
+    </string-array>
+</resources>

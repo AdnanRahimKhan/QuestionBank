@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dbms.questionbank">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_appround"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".adminsignup"></activity>
+        <activity android:name=".admin" />
+        <activity
+            android:name=".forgetpassword"
+            android:noHistory="true" />
+        <activity
+            android:name=".viewadminquestion"
+            android:noHistory="true" />
+        <activity android:name=".Viewquestion" />
+        <activity android:name=".deletequestion" />
+        <activity android:name=".addquestion" />
+        <activity
+            android:name=".page3"
+            android:noHistory="true" />
+        <activity android:name=".page1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".page2" android:noHistory="true"/>
+        <activity
+            android:name=".signup"
+            android:noHistory="true" />
+        <activity
+            android:name=".dsce"
+            android:noHistory="true" />
+        <activity
+            android:name=".student"
+            android:noHistory="true" />
+    </application>
+
+</manifest>
